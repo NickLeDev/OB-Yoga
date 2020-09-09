@@ -20,6 +20,8 @@ mix.postCss('resources/css/tailwind.css', 'public/css', [
     require('postcss-preset-env')({stage: 0})
 ])
 
+mix.sass('resources/css/main.scss', 'public/css/main.css')
+
 if (mix.inProduction()) {
    mix.version();
    mix.purgeCss({ enabled: true });
