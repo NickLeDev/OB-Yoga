@@ -1,0 +1,26 @@
+.menu {
+  $self: &;
+
+  display: flex;
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+    @include media-breakpoint-up(md) {
+      display: inline-flex;
+      flex-direction: row;
+    }
+  }
+
+  &__link {
+    + #{$self}__link {
+      margin: 20px 0 0;
+
+      @include media-breakpoint-up(md) {
+        margin: 0 0 0 10px;
+      }
+    }
+  }
+}

@@ -1,16 +1,20 @@
 <header class="header">
-    <div>
-        {{ settings:logo_header }}
-    </div>
-    <div class="menu">
-        <ul class="menu__links">
-            {{ nav:main }}
-            <li class="menu__link{{ if is_current }} menu__link--current{{ /if }}">
-                <a href="{{ url }}">
-                    {{ title }}
-                </a>
-            </li>
-            {{ /nav:main }}
-        </ul>
+    <div class="container">
+        <div class="header__content">
+            <div>
+                {{ settings:logo_header }}
+            </div>
+            <div class="menu">
+                <ul class="menu__links">
+                    {{ nav:main }}
+                    <li class="menu__link{{ if is_current }} menu__link--current{{ /if }}">
+                        <a href="{{ url }}">
+                            {{ title }}
+                        </a>
+                    </li>
+                    {{ /nav:main }}
+                </ul>
+            </div>
+        </div>
     </div>
 </header>

@@ -2,4 +2,19 @@
 @import "functions/color";
 @import "mixins/breakpoint";
 
+// base ------------------------------------
+@import "base/reset";
+@import "base/container";
+// -----------------------------------------
+
+// atoms -----------------------------------
 @import "atoms/paragraph";
+// -----------------------------------------
+
+// molecules -------------------------------
+@import "molecules/menu";
+// -----------------------------------------
+
+// organisms -------------------------------
+@import "organisms/header";
+// -----------------------------------------

@@ -19,24 +19,9 @@ $colors: (
 );
 
 $screen-breakpoints: (
-  xs: (
-    minwidth: 0,
-    maxcontainerwidth: auto,
-  ),
-  sm: (
-    minwidth: 576px,
-    maxcontainerwidth: 540px,
-  ),
-  md: (
-    minwidth: 768px,
-    maxcontainerwidth: 720px,
-  ),
-  lg: (
-    minwidth: 992px,
-    maxcontainerwidth: 960px,
-  ),
-  xl: (
-    minwidth: 1200px,
-    maxcontainerwidth: 1140px,
-  ),
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
 );
