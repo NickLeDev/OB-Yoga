@@ -1,3 +1,7 @@
 p {
-    color: green;
+    color: color(blue, base);
+
+  @include media-breakpoint-up(xl) {
+    color: color(beige);
+  }
 }

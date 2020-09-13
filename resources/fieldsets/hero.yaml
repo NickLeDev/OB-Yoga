@@ -1,0 +1,14 @@
+title: Hero
+fields:
+  -
+    handle: assets
+    field:
+      mode: grid
+      restrict: false
+      allow_uploads: true
+      max_files: 1
+      type: assets
+      listable: hidden
+      display: Assets
+      validate:
+        - required

@@ -1,0 +1,42 @@
+$colors: (
+  beige: (
+    base: #eff6e0,
+  ),
+  black: (
+    base: #000,
+  ),
+  blue: (
+    base: #598392,
+    dark: #124559,
+    darker: #01161e,
+  ),
+  green: (
+    base: #aec3b0,
+  ),
+  white: (
+    base: #FFF,
+  ),
+);
+
+$screen-breakpoints: (
+  xs: (
+    minwidth: 0,
+    maxcontainerwidth: auto,
+  ),
+  sm: (
+    minwidth: 576px,
+    maxcontainerwidth: 540px,
+  ),
+  md: (
+    minwidth: 768px,
+    maxcontainerwidth: 720px,
+  ),
+  lg: (
+    minwidth: 992px,
+    maxcontainerwidth: 960px,
+  ),
+  xl: (
+    minwidth: 1200px,
+    maxcontainerwidth: 1140px,
+  ),
+);
