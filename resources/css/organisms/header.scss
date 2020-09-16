@@ -1,11 +1,16 @@
 .header {
   background-color: color(white);
+  height: #{$header-mobile-height};
   position: sticky;
   width: 100%;
 
   &__content {
-    align-items: center;
+    align-items: stretch;
     display: flex;
     justify-content: space-between;
+  }
+
+  &__logo {
+    max-width: 200px;
   }
 }

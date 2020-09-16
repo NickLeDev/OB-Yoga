@@ -1,6 +1,7 @@
 $colors: (
   beige: (
     base: #eff6e0,
+    off: #eff6e0,
   ),
   black: (
     base: #000,
@@ -12,6 +13,7 @@ $colors: (
   ),
   green: (
     base: #aec3b0,
+    dark: #028090,
   ),
   white: (
     base: #FFF,
@@ -25,3 +27,6 @@ $screen-breakpoints: (
   lg: 992px,
   xl: 1200px,
 );
+
+
+$header-mobile-height: 100px;

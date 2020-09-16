@@ -1,7 +1,7 @@
 <header class="header">
     <div class="container">
         <div class="header__content">
-            <div>
+            <div class="header__logo logo">
                 {{ settings:logo_header }}
             </div>
             <div class="menu">
@@ -9,7 +9,9 @@
                     {{ nav:main }}
                     <li class="menu__link{{ if is_current }} menu__link--current{{ /if }}">
                         <a href="{{ url }}">
-                            {{ title }}
+                            <span class="menu__link__title">
+                                {{ title }}
+                            </span>
                         </a>
                     </li>
                     {{ /nav:main }}
