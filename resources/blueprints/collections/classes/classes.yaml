@@ -1,0 +1,55 @@
+title: Classes
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: content
+        field:
+          type: markdown
+          localizable: true
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - classes
+          max_items: 1
+          listable: false
+          localizable: true
+  buy:
+    display: Buy
+    fields:
+      -
+        handle: paypal
+        field:
+          display: Paypal
+          type: link
+          icon: link
+          listable: hidden
+      -
+        handle: contact_text
+        field:
+          input_type: text
+          display: 'Contact text'
+          type: text
+          icon: text
+          listable: hidden

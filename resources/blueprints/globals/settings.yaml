@@ -16,3 +16,28 @@ sections:
           instructions: 'Paste your svg code from your logo svg file'
           listable: hidden
           display: 'Logo header'
+  company_informations:
+    display: 'Company Informations'
+    fields:
+      -
+        handle: company_email
+        field:
+          input_type: text
+          display: 'Company''s email'
+          type: text
+          icon: text
+          listable: hidden
+          validate:
+            - required
+            - email
+      -
+        handle: contact_email
+        field:
+          input_type: text
+          display: 'Contact email'
+          type: text
+          icon: text
+          listable: hidden
+          validate:
+            - required
+            - email

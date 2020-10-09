@@ -1,4 +1,4 @@
-title: Hero
+title: 'Hero Variant'
 fields:
   -
     handle: title
@@ -8,16 +8,13 @@ fields:
       type: text
       icon: text
       listable: hidden
-      instructions: 'Title for the hero'
   -
-    handle: assets
+    handle: image
     field:
       mode: grid
       restrict: false
       allow_uploads: true
-      max_files: 1
+      display: Image
       type: assets
+      icon: assets
       listable: hidden
-      display: Assets
-      validate:
-        - required

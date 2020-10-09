@@ -1,0 +1,13 @@
+title: Classes
+template: default
+layout: layout
+revisions: false
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: false
+  tree:
+    -
+      entry: d5ca47d8-667e-49e2-b080-a5834a89cbcf
