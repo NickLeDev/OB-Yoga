@@ -3,7 +3,7 @@ title: 'OB Yoga'
 template: default
 author: 05d63af0-a124-45d2-bedf-9ad1b2316220
 updated_by: 05d63af0-a124-45d2-bedf-9ad1b2316220
-updated_at: 1604294429
+updated_at: 1604295067
 bard:
   -
     type: heading
@@ -31,7 +31,7 @@ flexible_content:
       values:
         type: hero
         hero_title: 'BIEN ÊTRE'
-        hero_assets: img/logos/OB-Yoga-Logos-FINAL-03.svg
+        hero_assets: Isabelle_posture.jpg
   -
     type: set
     attrs:
