@@ -1,6 +1,6 @@
 @mixin media-breakpoint-up($size) {
-  $fertchedsize: map-get($screen-breakpoints, $size);
-  @media screen and (min-width: $fertchedsize) {
+  $fetchedsize: map-get($screen-breakpoints, $size);
+  @media screen and (min-width: $fetchedsize) {
     @content;
   }
 }

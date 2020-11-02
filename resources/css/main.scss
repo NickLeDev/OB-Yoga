@@ -1,5 +1,6 @@
 @import "base/_vars";
 @import "functions/color";
+@import "functions/fonts";
 @import "mixins/breakpoint";
 
 // base ------------------------------------
@@ -13,6 +14,7 @@
 // -----------------------------------------
 
 // molecules -------------------------------
+@import "molecules/hero";
 @import "molecules/menu";
 @import "molecules/wrapper";
 // -----------------------------------------

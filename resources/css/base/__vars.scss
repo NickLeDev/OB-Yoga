@@ -28,5 +28,9 @@ $screen-breakpoints: (
   xl: 1200px,
 );
 
+$fonts:(
+  sans-serif: #{'Rubik', sans-serif},
+);
+
 
 $header-mobile-height: 100px;
