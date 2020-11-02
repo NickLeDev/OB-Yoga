@@ -13,4 +13,8 @@
   &__logo {
     max-width: 200px;
   }
+
+  @include media-breakpoint-up(md) {
+    height: auto;
+  }
 }

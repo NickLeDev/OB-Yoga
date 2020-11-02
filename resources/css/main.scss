@@ -14,8 +14,11 @@
 
 // molecules -------------------------------
 @import "molecules/menu";
+@import "molecules/wrapper";
 // -----------------------------------------
 
 // organisms -------------------------------
+@import "organisms/body";
 @import "organisms/header";
+@import "organisms/footer";
 // -----------------------------------------

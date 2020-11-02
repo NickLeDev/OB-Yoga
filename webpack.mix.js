@@ -13,14 +13,7 @@ require('laravel-mix-purgecss');
 
 mix.js('resources/js/site.js', 'public/js')
 
-mix.postCss('resources/css/tailwind.css', 'public/css', [
-    require('postcss-import'),
-    require('tailwindcss'),
-    require('postcss-nested'),
-    require('postcss-preset-env')({stage: 0})
-])
-
-mix.sass('resources/css/main.scss', 'public/css/main.css')
+mix.sass('resources/css/body.scss', 'public/css/main.css')
 
 if (mix.inProduction()) {
    mix.version();

@@ -97,17 +97,6 @@
 
 /***/ }),
 
-/***/ "./resources/css/tailwind.css":
-/*!************************************!*\
-  !*** ./resources/css/tailwind.css ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ "./resources/js/site.js":
 /*!******************************!*\
   !*** ./resources/js/site.js ***!
@@ -120,15 +109,14 @@
 /***/ }),
 
 /***/ 0:
-/*!*******************************************************************************************!*\
-  !*** multi ./resources/js/site.js ./resources/css/main.scss ./resources/css/tailwind.css ***!
-  \*******************************************************************************************/
+/*!**************************************************************!*\
+  !*** multi ./resources/js/site.js ./resources/css/main.scss ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /Users/ntrudel/Sites/obyoga/resources/js/site.js */"./resources/js/site.js");
-__webpack_require__(/*! /Users/ntrudel/Sites/obyoga/resources/css/main.scss */"./resources/css/main.scss");
-module.exports = __webpack_require__(/*! /Users/ntrudel/Sites/obyoga/resources/css/tailwind.css */"./resources/css/tailwind.css");
+module.exports = __webpack_require__(/*! /Users/ntrudel/Sites/obyoga/resources/css/main.scss */"./resources/css/main.scss");
 
 
 /***/ })
